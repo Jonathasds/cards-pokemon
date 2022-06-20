@@ -10,13 +10,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    align-items: center;
-    row-gap: 50px;
-    column-gap: 50px;
-    justify-items: center;
+    
+    display: flex;
+    justify-content: space-between;
     margin-top: 100px;
+    flex-wrap: wrap;
     
 }
 
@@ -33,13 +31,12 @@ body{
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-
+    margin: 50px;
     border-radius: 10px;
 }
 
 .cards img{
 z-index: 20;
-object-fit: cover;
 width: 150px;
 }
 
@@ -62,7 +59,6 @@ width: 150px;
 
 .demotext {
     color: #202c2d;
-    
     text-shadow: 0 1px #687f8a, -1px 0 #0198f5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #878e92;
     color: #202c2d;
     
