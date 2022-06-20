@@ -11,13 +11,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
     row-gap: 50px;
     column-gap: 50px;
     justify-items: center;
     margin-top: 100px;
-    grid-auto-flow: row
+    
 }
 
 .cards{
